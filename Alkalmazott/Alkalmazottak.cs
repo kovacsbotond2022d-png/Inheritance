@@ -4,10 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Alkalmazott
+namespace cegapp
 {
     internal class Alkalmazottak
     {
+        public string Nev { get; set; }
+        protected int alapber { get; set; }
+
+        Alkalmazottak(string nev,int alapber)
+        {
+            Nev = nev;
+            this.alapber = alapber;
+        }
+        public virtual int fizetes()
+        {
+            return alapber;
+        }
+
+        public override string ToString()
+        {
+            return $"Név: {Nev}, Fizetés: {fizetes()} Ft";
+        }
+
 
     }
 }
