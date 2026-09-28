@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace cegapp
 {
-    internal class Alkalmazottak
+    public class Alkalmazottak
     {
         public string Nev { get; set; }
         protected int alapber { get; set; }
 
-        Alkalmazottak(string nev,int alapber)
+        public Alkalmazottak(string nev,int alapber)
         {
             Nev = nev;
             this.alapber = alapber;

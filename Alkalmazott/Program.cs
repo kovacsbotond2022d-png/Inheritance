@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Alkalmazottak.cs;
 
 namespace cegapp
 {
@@ -11,6 +10,7 @@ namespace cegapp
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
